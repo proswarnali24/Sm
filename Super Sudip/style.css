@@ -1,0 +1,53 @@
+:root {
+  --bg1: #081c15;
+  --bg2: #1b4332;
+  --panel: #2d6a4f;
+  --text: #d8f3dc;
+  --accent: #95d5b2;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(circle at top, var(--bg2), var(--bg1));
+  color: var(--text);
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+}
+
+.app {
+  width: min(92vw, 520px);
+  text-align: center;
+  padding: 1.2rem;
+  border-radius: 16px;
+  background: color-mix(in oklab, var(--panel) 82%, black);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+
+h1 {
+  margin: 0.2rem 0 0.8rem;
+}
+
+.hud {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+canvas {
+  width: 100%;
+  max-width: 400px;
+  border: 3px solid var(--accent);
+  border-radius: 8px;
+  background: #08120d;
+}
+
+.controls {
+  margin: 0.7rem 0 0.2rem;
+  opacity: 0.9;
+}
