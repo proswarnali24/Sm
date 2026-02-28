@@ -1,2 +1,0 @@
-p,thr_total_bits_per_slot,thr_cli2srv_bits_per_slot,thr_srv2cli_bits_per_slot,avg_delay_cli2srv_slots,avg_delay_srv2cli_slots,efficiency
-0.500000,464.280000,464.280000,0.000000,38884.405531,nan,0.906797
