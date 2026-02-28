@@ -1,0 +1,9 @@
+Walsh W=4 n=4 T=4
+S0 bits: 1011
+S1 bits: 0110
+S2 bits: 1100
+S3 bits: 0001
+t=0 chips: 0 4 0 0
+t=1 chips: 0 0 0 -4
+t=2 chips: 0 0 4 0
+t=3 chips: 0 0 0 4

@@ -1,0 +1,24 @@
+g++ -std=c++17 -O2 -pthread sender.cpp -o sender
+g++ -std=c++17 -O2 -pthread receiver.cpp -o receiver
+
+
+# for stop-and-wait
+./receiver 9000 
+
+# for GBN with window 4
+./receiver 9000 
+
+# for SR with window 4
+./receiver 9000 
+
+
+# stop-and-wait (payloads come from input.txt)
+./sender 127.0.0.1 9000 input.txt 
+
+# go-back-n (window 4), errProb=0.2, delayProb=0.1, maxDelay=300ms
+./sender 127.0.0.1 9000 input.txt 
+
+# selective repeat (window 4)
+./sender 127.0.0.1 9000 input.txt 
+
+NAK Window 

@@ -1,0 +1,4 @@
+### Block 1: Introduction to Flow Control Simulation ###
+This is a larger input file designed to rigorously test network flow control protocols. The goal is to generate enough data to be split into multiple packets, allowing for a clear demonstration of how Stop-and-Wait, Go-Back-N, and Selective Repeat ARQ handle data transmission, acknowledgments, and error recovery. With a payload size of 512 bytes, this file will create a stream of packets, making the dynamics of windowing, timeouts, and retransmissions visible in the terminal output. This is packet data filler. 0123456789.
+
+
